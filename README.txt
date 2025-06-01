@@ -25,7 +25,24 @@ Ce projet est **100% reproductible sans matériel** grâce à :
 
 
 ## 🖼 Démo visuelle
-![demo](visuel_demo.png)
+
+### 📱 Téléphone connecté à Edge Impulse
+![connectphone](connectphone.png)
+
+### ⚙️ Génération des features
+![generate_feature](generate_feature.png)
+
+### 🔄 Téléphone détecté avec succès
+![phone_connected](phone_connected.png)
+
+### 🌐 Modèle prêt au déploiement
+![web_deployment](web_deployment.png)
+
+### 📊 Résultats d'entraînement (précision 100%)
+![Accuracy](accuracy_result.png)
+
+### ⚙️ Architecture du modèle IA (Impulse)
+![Impulse Design](impulse_design.png)
 
 
 ## 🔗 Liens
