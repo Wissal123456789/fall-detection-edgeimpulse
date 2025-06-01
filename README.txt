@@ -1,16 +1,34 @@
+# 🧠 Détection de Chute (TinyML) – Edge Impulse + Arduino
 
-# Edge Impulse library for Detection_de_chutes_seniors
+Ce projet utilise un modèle IA embarqué (TinyML) pour détecter les chutes de personnes âgées à partir des données d'accéléromètre (MPU6050). Il a été entraîné sur Edge Impulse et préparé pour une intégration sur Arduino.
 
-This is a C++ library that lets you run the impulse for "Detection_de_chutes_seniors" (https://studio.edgeimpulse.com/studio/709033) on any device. It consists of the Edge Impulse inferencing SDK - with implementations of both processing and learning blocks - and your model. You will need to include this library in your project to run your impulse locally.
 
-## Getting Started
 
-Please refer to the following documentation to learn how to use this library:
+## 🔧 Outils utilisés
+- 📱 Téléphone (Edge Impulse App) pour collecter les données
+- 🤖 Edge Impulse pour entraîner le modèle IA
+- 🧠 Modèle IA (Neural Network + Spectral Features)
+- 🎯 Précision obtenue : **100 %** sur le jeu de validation
 
-* Deploy your model as a C++ library: https://docs.edgeimpulse.com/docs/deploy-your-model-as-a-c-library
-* Running your impulse locally: https://docs.edgeimpulse.com/docs/running-your-impulse-locally-1
-* C++ Inference SDK Library API Reference: https://docs.edgeimpulse.com/reference/inferencing-sdk
 
-## Example Projects
+## 🚫 Pas de matériel ? Pas de souci !
+Ce projet est **100% reproductible sans matériel** grâce à :
+- La collecte de données via smartphone
+- La simulation et le test via WebAssembly dans le navigateur
 
-For example projects, see 'Running your impulse locally' in the docs (https://docs.edgeimpulse.com/docs/running-your-impulse-locally-1). These pages have examples for virtually any platform under the sun including Linux, Mbed OS, Zephyr, FreeRTOS, and bare-metal on a wide range of platforms. These examples also show how to enable hardware acceleration on Cortex-M, Cortex-A, ARC DSPs and other platforms.
+
+## 📦 Structure
+- `detection_chute.ino` : code Arduino pour MPU6050 + inférence
+- `edge-impulse-sdk/` : SDK IA embarqué
+- `model-parameters/` : métadonnées du modèle
+- `tflite-model/` : modèle optimisé
+
+
+## 🖼 Démo visuelle
+![demo](visuel_demo.png)
+
+
+## 🔗 Liens
+- [Projet Edge Impulse](https://studio.edgeimpulse.com) (non public)
+- [Post LinkedIn associé](URL à venir)
+
