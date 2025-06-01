@@ -44,8 +44,13 @@ Ce projet est **100% reproductible sans matériel** grâce à :
 ### ⚙️ Architecture du modèle IA (Impulse)
 ![Impulse Design](impulse_design.png)
 
+## 🎥 Vidéo de démonstration
+
+Regarde la détection IA en action :
+
+[▶️ Voir la vidéo sur YouTube](https://youtube.com/shorts/MApXynli6vY?si=t-S4XPtjq8SCHfLB)
 
 ## 🔗 Liens
-- [Projet Edge Impulse](https://studio.edgeimpulse.com) (non public)
+- 📡 Entraîné et testé sur Edge Impulse Studio (projet privé)
 - [Post LinkedIn associé](URL à venir)
 
